@@ -1,7 +1,8 @@
----
+﻿---
 title: "OBS Multi-Track Recording: Why Track 1 Is All You Hear"
 description: "A practical first-pass check for OBS Separate Audio Tracks."
 date: 2026-11-13
+draft: true
 ---
 <p>OBS can record multiple tracks while the player still hears a mix. The check is in the file, not the mixer.</p>
 <h2>1. Reproduce the exact failure</h2>
@@ -12,4 +13,5 @@ date: 2026-11-13
 <p>Record the old value, apply one change, retest, and keep the result. If the change does not fix it, roll it back before trying the next path.</p>
 <h2>4. Handover test</h2>
 <p>Repeat the successful test after a restart or reconnect. A fix that only works in the current session is not ready for handover.</p>
-<p><a href="/">Back to the service page</a> · <a href="mailto:hello@handytasklab.com?subject=OBS%20Separate%20Audio%20Tracks%20question&body=Source%3A%20obs-separate-audio-tracks-help">Ask about this exact symptom</a></p>
+<p><a href="/">Back to the service page</a> 路 <a href="mailto:hello@handytasklab.com?subject=OBS%20Separate%20Audio%20Tracks%20question&body=Source%3A%20obs-separate-audio-tracks-help">Ask about this exact symptom</a></p>
+
