@@ -1,7 +1,7 @@
 baseURL = "https://obs-separate-audio-tracks-help.pages.dev/"
 languageCode = "en-us"
 title = "OBS Separate Audio Tracks Help"
-enableRobotsTXT = true
+enableRobotsTXT = false
 disableKinds = ["taxonomy", "term"]
 [params]
 source = "obs-separate-audio-tracks-help"
