@@ -2,7 +2,9 @@ baseURL = "https://obs-separate-audio-tracks-help.pages.dev/"
 languageCode = "en-us"
 title = "OBS Separate Audio Tracks"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 [params]
+template_version = "v1.1.0"
 description = "Configure OBS multi-track audio for desktop, microphone, and game sound, then verify the recording."
 category = "PC & Mac"
 source = "obs-separate-audio-tracks-help"
