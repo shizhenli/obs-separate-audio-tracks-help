@@ -1,13 +1,33 @@
 baseURL = "https://obs-separate-audio-tracks-help.pages.dev/"
 languageCode = "en-us"
-title = "OBS Separate Audio Tracks"
+title = "OBS Separate Audio Tracks Help"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 [params]
-template_version = "v1.1.0"
-description = "Configure OBS multi-track audio for desktop, microphone, and game sound, then verify the recording."
-category = "PC & Mac"
 source = "obs-separate-audio-tracks-help"
+description = "Remote OBS help for multi-track recordings that only contain track 1, with source routing and player verification."
 email = "hello@handytasklab.com"
+fallback_email_subject = "OBS separate audio tracks help"
+fallback_email_fields = ["OBS version and OS", "Sources and intended tracks", "Recording format", "What the editor shows"]
+og_image = "images/social.jpg"
+footer_line = "Remote help for one device at a time."
+latest_kicker = "FROM THE BLOG"
+latest_title = "OBS Separate Audio Tracks Help Guides"
+theme_bg = "#251D39"
+theme_surface = "#F0EFF1"
+theme_card = "#FFFFFF"
+theme_ink = "#182018"
+theme_muted = "#5D655F"
+theme_accent = "#C5A7FF"
+theme_accent_ink = "#151515"
+theme_deep = "#1D172C"
+theme_deep_ink = "#FFFFFF"
+theme_header_ink = "#FFFFFF"
+theme_line = "#CDCECE"
+theme_link = "#CCB2FF"
+theme_scrim = "rgba(8,12,16,0.86)"
+theme_light = false
+hero_desktop_hd_width = 1920
+hero_mobile_hd_width = 768
 [markup.goldmark.renderer]
 unsafe = true
