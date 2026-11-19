@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://obs-separate-audio-tracks-help.pages.dev/sitemap.xml
+
+Sitemap: https://obs-audio.handytasklab.com/sitemap.xml
